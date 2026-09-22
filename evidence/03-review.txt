@@ -1,0 +1,8 @@
+Commit 1: "Add input validation to checkout.py" - files: checkout.py
+Commit 2: "Add usage note to README" - files: README.md
+
+Separating these changes into two commits makes the history easier to
+review and safer to undo: each commit represents one coherent, self-
+contained change. If the checkout.py logic needed to be reverted, it
+could be undone without touching the unrelated README update, and each
+commit has a single clear purpose rather than a mixed diff.
