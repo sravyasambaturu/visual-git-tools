@@ -1,0 +1,12 @@
+Line under investigation: return total (in checkout.py)
+
+Commit ID:651e11835a104eb57f2d70002986cd43bed4f1d2
+Author: Venkata Sai Sravya S.
+Date: 09-22-2026
+Commit message: "Adjust total calculation"
+
+Interpretation: This commit changed "return total" to "return total + 1",
+introducing an off-by-one error. This plausibly explains unexpected
+output, since every call to calculate_total would return a result one
+higher than the correct sum. The next commit, "Fix total calculation
+back to correct sum," reverted the line to the correct return statement.
