@@ -1,0 +1,11 @@
+Repository URL: https://github.com/sravyasambaturu/visual-git-tools
+Branches: main, visual-tools
+Feature commit 1: "Add checkout.py with total calculation"
+Feature commit 2: "Add docstring to calculate_total"
+
+The README commit is shared between main and visual-tools and it's the
+point where visual-tools branched off. The two checkout.py commits are
+unique to visual-tools and don't appear on main yet. HEAD currently
+points to visual-tools (the checked-out branch), specifically to its
+newest commit, "Add docstring to calculate_total." The main branch label
+still points only to the original README commit.
