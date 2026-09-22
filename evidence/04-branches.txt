@@ -1,0 +1,11 @@
+Current branch (before merge): main
+Publish branch: used "Publish branch" button to push visual-tools to origin
+Merge: Branch menu -> "Merge into current branch" while main was checked
+       out -> main is the target, visual-tools is the source
+Fetch/Pull: used Fetch origin then Pull origin on main to bring in the
+       GitHub-made README edit
+Push: used Push origin to publish the merged main back to GitHub
+
+After merge, checkout.py and its full commit history appear directly on
+main. After pulling the GitHub-made README edit, local main matches
+origin/main exactly, and the working tree is clean.
