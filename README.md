@@ -11,7 +11,7 @@ Just adding a sentence to check the tracking on GitHub Desktop
 Feature review note.
 
 Adding a feature review note.
-Adding a line on remote repository to fetch
+Adding a line on remote repository to fetch.
 
 Main review note.
 
