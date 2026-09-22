@@ -1,0 +1,9 @@
+Conflicting lines:
+  main:         "Main review note."
+  visual-tools: "Feature review note."
+
+Final resolved content (in README.md):
+  Main review note.
+  Feature review note.
+
+Merge commit message: "Merge branch 'visual-tools' into main"
