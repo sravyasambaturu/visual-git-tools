@@ -5,3 +5,6 @@ visual Git client (GitHub Desktop) to explore commit history, branching,
 merging, and conflict resolution. It contains a small Python script,
 checkout.py, used as the working file for these exercises, along with
 evidence and screenshots documenting each task.
+
+Just adding a sentence to check the tracking on GitHub Desktop
+
